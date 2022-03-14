@@ -1,0 +1,139 @@
+    *{
+        margin:0;
+        padding:0;
+        font-family: 'Roboto', sans-serif;
+    }
+body{
+    background-color: rgb(177, 177, 177);
+}
+.bodys{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+/* ------------------ 네비게이션 -----------------*/
+
+
+.home{
+
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}  
+
+.home a img{
+    width: 254.25px;
+    height: 30px;
+}
+
+.nav{
+    width: 1200px;
+    height: 21px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.nav #menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav #menu li a{
+    text-decoration: none;
+    color:#202020;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.nav #menu li :hover{
+    font-weight: bold;
+}
+
+
+/* ------------------ 메인 이미지 -----------------*/
+
+
+.mainimg{
+    background-image: url("https://loungelab.io/static/img/meta_facebook.png");
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+/* ------------------ 콘텐츠 영역 -----------------*/
+
+
+.content_a{  
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.content_a h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size:24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.content_a img{
+    display: block;
+}
+
+.content_a p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #404040;
+    margin-top: 24px;
+}
+
+.photobox{
+    margin-top: 80px;
+    margin-bottom: 110px;
+    height: 760px;
+}
+
+.photobox img{
+    float: left;
+}
+
+.small{
+    width:400px;
+    height: 380px;
+}
+
+.big{
+    width:600px;
+    height: 380px;
+}
+
+
+/* ------------------ 푸터 영역 -----------------*/
+
+
+.footer{
+    background-color: #000000;
+    height: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    line-height: 1.3;
+    color: #ffffff;  
+}
